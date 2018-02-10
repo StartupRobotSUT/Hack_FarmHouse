@@ -161,6 +161,9 @@ void setup() {
   rtc.setTime(01, 11, 30);      // ตั้งค่า เวลา รูปแบบ 12:00:00 (24hr format)
   rtc.setDate(10, 2, 2018);    // ตั้งค่า วัน เดือน ปี
   Timebegin();
+  initialize_stack_EC();
+  
+  initialize_stack_PH();
 
 }
 
